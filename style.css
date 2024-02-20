@@ -1,0 +1,159 @@
+body{
+	color: #fff;
+	background: #232830;
+	font-family: "Poppins", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+
+
+	/*display: flex;
+	flex-direction: row;
+	align-items: center;*/
+}
+#page-header{
+	width: 1236px;
+	height: 515px;
+	margin: 0 auto 0 auto;
+	border: 5px solid #40396E ;
+	padding: -370px -309px;
+
+
+	
+	/*display: flex;
+	flex-direction: column;
+	align-content:center ;*/
+}
+
+#nav{
+	display: flex;
+	list-style-type: none; /* removes bullets*/
+	align-items: center;
+	padding: .5em; /*equals 8px*/
+	margin: 0;
+
+}
+li{
+	margin: 0 1rem; /*1rem = 16px*/
+	font-size: 24px;
+	line-height: 36px;
+}
+li.logo-title{
+	margin-right: auto;
+	font-size: 30px;
+	line-height:45px ;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#banner{
+	width: 844px;
+	height: 391px;
+	text-align: center;
+	margin: 0 auto 0 auto;
+	border: 5px solid #40396E;
+	padding: -246px -109px;
+
+}
+#logo-img{
+	width: 194px;
+	height: 204px;
+	padding: -246px 216px;
+}
+
+.title{
+	line-height:85px ;
+	margin: 0;
+	padding: -1px -109px;
+	font-family: "Recursive", sans-serif;
+	font-style: italic;
+	font-size: 70px;
+	color: #FF7575;
+	
+
+}
+
+.text{
+	line-height: 43px;
+	font-family:"Poppins", sans-serif ;
+	font-size: 29px;
+	padding: 101px -43px;
+}
+
+hr{
+	
+	width:100%;
+	border: 3px solid #4D4D4D;
+	padding: 244px -527px;
+
+
+}
+
+#category-listing{
+	color: #909090;
+	width:1236px;
+	height: 65px;
+	font-family:"Recursive", sans-serif ;
+	font-style: italic;
+	font-size: 27px;
+	padding: 244px -527px;
+	display: flex;
+	justify-content:space-evenly;
+
+}
+
+.cat-icons{
+	margin: 20px auto 20px auto;
+
+
+}
+
+
+
+#categories{
+
+
+	display: flex;
+	list-style-type: none; /* removes bullets*/
+	align-items: center;
+	padding: .5em; /*equals 8px*/
+	margin: 0;
+
+}
+
+.list {
+	line-height: 32px;
+}
+
+#articles-section{
+	width: 1244px;
+	height: 1391px;
+	margin: 0 auto 0 auto;
+	/*padding: 403px -309px;*/
+	border: 1px solid #252930 ;
+	border-radius: 22px;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.article-1{
+	width: 390px;
+	height: 439px;
+	color: #252930;
+	background: #fff;
+	margin: 10px;
+	border: 1px solid #252930 ;
+	border-radius: 22px;
+	padding: 403px -309px;
+
+	
+}
+
+.art-img{
+	width: 337px;
+	height: 160px;
+	margin: 25px auto 0 auto;
+
+}
